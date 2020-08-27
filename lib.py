@@ -16,6 +16,7 @@ class StudentManagement:
     def fullShowdata(self):
         for istifadeci in StudentList:
             istifadeci.showData()
+
     def deleteStudent(self):
         delStud = input("Telebe kodunu yazin : ")
         for data in StudentList:
